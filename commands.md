@@ -45,7 +45,3 @@ Create a password protected zip
 ```
 zip -e protected.zip /path/name
 ```
-Show the download history:
-```
-sqlite3 ~/Library/Preferences/com.apple.LaunchServices.QuarantineEventsV * 'select LSQuarantineDataURLString from LSQuarantineEvent'
-```
