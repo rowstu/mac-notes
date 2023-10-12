@@ -9,3 +9,7 @@ Open the print queue (via system settings) when you receive this sill error: "<s
 ```
 sudo open "x-apple.systempreferences:com.apple.preference.security"
 ```
+all print jobs can also be cancelled with the following command:
+```
+cancel -a -x
+```
